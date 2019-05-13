@@ -18,7 +18,7 @@ fi
 
 # Install packages listed in brew.txt, including zsh
 printf '\e[0;33m%-6s\e[m' "[HOMEBREW] installing packages..."
-args brew install < brew.txt
+xargs brew install < brew.txt
 
 # Install iTerm2
 printf '\e0;33m%-6s\e[m' "[ITERM2] installing iTerm2..."
