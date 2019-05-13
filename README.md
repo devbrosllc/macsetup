@@ -29,3 +29,6 @@ This is recommended only if you haven't setup your machine at all.
 # Manual Steps (if you so choose)
 ## Installing Brew Packages
 Install all of the packages mentioned in the `brew.txt` file by running `xargs brew install < brew.txt`
+
+# Travis integration
+I'm testing integrating Travis with this.
