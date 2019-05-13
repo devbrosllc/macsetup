@@ -26,7 +26,7 @@ brew cask install iterm2
 
 # Install oh-my-zsh -- using a fork of the original oh-my-zsh to avoid launching zsh after installer finishes
 printf '\e[0;33m%-6s\e[m' "[ZSH] installing oh-my-zsh..."
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/rudolphjacksonm/oh-my-zsh/master/tools/install.sh --skip-chsh --silent)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/rudolphjacksonm/oh-my-zsh/master/tools/install.sh | bash -s arg1 arg2 --skip-chsh --silent)"
 if $? -eq 0; then
   printf '\e[0;32m%-6s\e[m' "[ZSH] oh-my-zsh successfully installed."
 else
