@@ -11,6 +11,6 @@ pool:
   vmImage: 'macOS-10.14'
 
 steps:
-- bash: setup.sh
+- bash: ./setup.sh
   workingDirectory: #
   displayName: Run macsetup.sh
