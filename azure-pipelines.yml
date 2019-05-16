@@ -12,5 +12,6 @@ pool:
 
 steps:
 - bash: ./setup.sh
-  workingDirectory: #
   displayName: Run macsetup.sh
+  env:
+    TF_BUILD: $(TF_BUILD)
