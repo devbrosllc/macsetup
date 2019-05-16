@@ -1,4 +1,4 @@
-# Setup My Fking Mac
+# Setup My Fking Mac [![Build Status](https://travis-ci.org/devbrosllc/macsetup.svg?branch=master)](https://travis-ci.org/devbrosllc/macsetup)
 Put a little seasoning on your shiny new Mac so you can get to work faster. Run the provided `setup` script to install the following:
 - Homebrew
 - iTerm2
