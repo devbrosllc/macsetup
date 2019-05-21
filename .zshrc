@@ -86,3 +86,5 @@ export GOPATH=~/go_workspaces/main
 #export GOBIN=$GOPATH/bin
 # Include k8s plugins
 export PATH=$PATH:~/.kube/plugins/jordanwilson230
+# tab completion for kubectl
+source <(kubectl completion zsh)
